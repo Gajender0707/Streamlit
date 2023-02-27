@@ -1,0 +1,15 @@
+Command for creating the virtual enviroment in python 
+
+1. python -m venv enviroment_name
+2. evniroment_name\scripts\activate
+
+#to create the requiremnt.text file need to run the command
+
+pip freeze > requirment.txt
+
+#and if there already is requirment.txt file then to use the requirment.txt file need to run the commad
+
+pip install -r requirment.txt
+
+# and to deactive the virtual enviroment is just right
+\deactive
